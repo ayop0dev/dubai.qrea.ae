@@ -1,0 +1,8 @@
+body { font-family: 'Poppins', system-ui, sans-serif; }
+
+.step { padding: 16px 16px 16px 58px; }
+.step:before { right: auto; left: 16px; }
+
+@media (min-width: 768px) {
+  .step:before { right: auto; left: 22px; }
+}
